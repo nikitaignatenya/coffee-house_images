@@ -33,19 +33,19 @@
             hides an <span> amazing surprise </span>
           </h1>
           <div class="icons">
-            <button class="all_icon">
+            <button class="all_icon" id="cofee">
               <div class="sircle">
                 <p>☕</p>
               </div>
               <p>Cofee</p>
             </button>
-            <button class="all_icon">
+            <button class="all_icon" id="tea">
               <div class="sircle">
                 <p>☕</p>
               </div>
               <p>Tea</p>
             </button>
-            <button class="all_icon">
+            <button class="all_icon" id="dessert">
               <div class="sircle">
                 <p>☕</p>
               </div>
@@ -56,100 +56,234 @@
         <!-- вторая секция -->
         <section class="second_section">
           <!-- первый контейнер -->
-          <div class="container">
-            <img class="image_1" src="./svg/box.svg"> </img>
-            <div class="text_first_six">
-              <p>Irish coffee</p>
-              <p>
-                Fragrant black coffee with <br />
-                Jameson Irish whiskey and <br />
-                whipped milk
-              </p>
-              <p>$7.00</p>
-            </div>
-          </div>
-          <!-- второй контейнер -->
-          <div class="container">
-            <img class="image_1" src="./svg/box_2.svg"></img>
-            <div class="text">
-              <p>Kahlua coffee</p>
-              <p>
-                Classic coffee with mil k and Kahlua <br />
-                liqueur under a cap of frothed milk
-              </p>
-              <p>$7.00</p>
-            </div>
-          </div>
-          <!-- третий контейнер -->
-          <div class="container">
-            <img class="image_1" src="./svg/box_3.svg"></img>
-            <div class="text">
-              <p>Honey raf</p>
-              <p>
-                Espresso with frothed milk, cream <br />
-                and aromatic honey
-              </p>
-              <p>$5.50</p>
-            </div>
-          </div>
-          <!-- четвёртый контейнер -->
-          <div class="container">
-            <img class="image_1" src="./svg/box_4.svg"></img>
-            <div class="text">
-              <p>Irish coffee</p>
-              <p>
-                Cappuccino with soft thick foam in <br />
-                summer version with ice
-              </p>
-              <p>$5.00</p>
-            </div>
-          </div>
-          <!-- пятый контейнер -->
-          <div class="container container_delete_2">
-            <img class="image_1" src="./svg/box_5.svg"></img>
-            <div class="text_five">
-              <p>Espresso</p>
-              <p>Classic black coffee</p>
-              <p>$4.50</p>
-            </div>
-          </div>
-          <!-- шестой контейнер -->
-          <div class="container container_delete_2">
-            <img class="image_1" src="./svg/box_6.svg"></img>
-            <div class="text_first_six">
-              <p>Latte</p>
-              <p>
-                Espresso coffee with the addition <br />
-                of steamed milk and dense milk <br />
-                foam
-              </p>
-              <p>$5.50</p>
-            </div>
-          </div>
-          <!-- седьмой контейнер -->
-          <div class="container container_delete_1">
-            <img class="image_1" src="./svg/box_7.svg"></img>
-            <div class="text">
-              <p>Latte macchiato</p>
-              <p>
-                Espresso with frothed milk and <br />
-                chocolate
-              </p>
-              <p>$5.50</p>
-            </div>
-          </div>
-          <!-- восьмой контейнер -->
-          <div class="container container_delete_1">
-            <img class="image_1" src="./svg/box_8.svg"></img>
-            <div class="text">
-              <p>Coffee with cognac</p>
-              <p>
-                Fragrant black coffee with cognac <br />
-                and whipped cream
-              </p>
-              <p>$6.50</p>
-            </div>
-          </div>
+           <div class="containerDrink changeCartCofee">
+             <div class="container cofeeFlex cofeeRemove">
+               <img class="image_1" src="./svg/box.svg"> </img>
+               <div class="text_first_six">
+                 <p>Irish coffee</p>
+                 <p>
+                   Fragrant black coffee with <br />
+                   Jameson Irish whiskey and <br />
+                   whipped milk
+                 </p>
+                 <p>$7.00</p>
+               </div>
+             </div>
+             <!-- второй контейнер -->
+             <div class="container cofeeFlex cofeeRemove">
+               <img class="image_1" src="./svg/box_2.svg"></img>
+               <div class="text">
+                 <p>Kahlua coffee</p>
+                 <p>
+                   Classic coffee with mil k and Kahlua <br />
+                   liqueur under a cap of frothed milk
+                 </p>
+                 <p>$7.00</p>
+               </div>
+             </div>
+             <!-- третий контейнер -->
+             <div class="container cofeeFlex cofeeRemove">
+               <img class="image_1" src="./svg/box_3.svg"></img>
+               <div class="text">
+                 <p>Honey raf</p>
+                 <p>
+                   Espresso with frothed milk, cream <br />
+                   and aromatic honey
+                 </p>
+                 <p>$5.50</p>
+               </div>
+             </div>
+             <!-- четвёртый контейнер -->
+             <div class="container cofeeFlex cofeeRemove">
+               <img class="image_1" src="./svg/box_4.svg"></img>
+               <div class="text">
+                 <p>Irish coffee</p>
+                 <p>
+                   Cappuccino with soft thick foam in <br />
+                   summer version with ice
+                 </p>
+                 <p>$5.00</p>
+               </div>
+             </div>
+             <!-- пятый контейнер -->
+             <div class="container cofee_delete_1089   ">
+               <img class="image_1" src="./svg/box_5.svg"></img>
+               <div class="text_five">
+                 <p>Espresso</p>
+                 <p>Classic black coffee</p>
+                 <p>$4.50</p>
+               </div>
+             </div>
+             <!-- шестой контейнер -->
+             <div class="container cofee_delete_1089  ">
+               <img class="image_1" src="./svg/box_6.svg"></img>
+               <div class="text_first_six">
+                 <p>Latte</p>
+                 <p>
+                   Espresso coffee with the addition <br />
+                   of steamed milk and dense milk <br />
+                   foam
+                 </p>
+                 <p>$5.50</p>
+               </div>
+             </div>
+             <!-- седьмой контейнер --> 
+             <div class="container cofee_delete_1439  ">
+               <img class="image_1" src="./svg/box_7.svg"></img>
+               <div class="text">
+                 <p>Latte macchiato</p>
+                 <p>
+                   Espresso with frothed milk and <br />
+                   chocolate
+                 </p>
+                 <p>$5.50</p>
+               </div>
+             </div>
+             <!-- восьмой контейнер -->
+             <div class="container cofee_delete_1439  ">
+               <img class="image_1" src="./svg/box_8.svg"></img>
+               <div class="text">
+                 <p>Coffee with cognac</p>
+                 <p>
+                   Fragrant black coffee with cognac <br />
+                   and whipped cream
+                 </p>
+                 <p>$6.50</p>
+               </div>
+             </div>
+           </div>
+           <div class="containerDrink changeCartTea">
+             <div class="container teaFlex teaRemove">
+               <img class="image_1" src="./svg/tea_1.png"> </img>
+               <div class="text_first_six">
+                 <p>Moroccan</p>
+                 <p>
+                   Fragrant black tea with the addition of tangerine, cinnamon, honey, lemon and mint
+                 </p>
+                 <p>$4.50</p>
+               </div>
+             </div>
+             <!-- второй контейнер -->
+             <div class="container teaFlex teaRemove">
+               <img class="image_1" src="./svg/tea_2.png"></img>
+               <div class="text">
+                 <p>Ginger</p>
+                 <p>
+                  Original black tea with fresh ginger, lemon and honey
+                 </p>
+                 <p>$5.00</p>
+               </div>
+             </div>
+             <!-- третий контейнер -->
+             <div class="container teaFlex teaRemove">
+               <img class="image_1" src="./svg/tea_3.png"></img>
+               <div class="text">
+                 <p>Cranberry</p>
+                 <p>
+                   Invigorating black tea with cranberry and honey
+                 </p>
+                 <p>$5.00</p>
+               </div>
+             </div>
+             <!-- четвёртый контейнер -->
+             <div class="container teaFlex teaRemove">
+               <img class="image_1" src="./svg/tea_4.png"></img>
+               <div class="text">
+                 <p>Sea buckthorn</p>
+                 <p>
+                   Toning sweet black tea with sea buckthorn, fresh thyme and cinnamon
+                 </p>
+                 <p>$5.50</p>
+               </div>
+             </div>
+           </div>
+           <div class="containerDrink changeCartDes">
+             <div class="container desFlex desRemove">
+               <img class="image_1" src="./svg/des_1.png"> </img>
+               <div class="text_first_six">
+                 <p>Marble cheesecake</p>
+                 <p>
+                   Philadelphia cheese with lemon zest on a light sponge cake and red currant jam
+                 </p>
+                 <p>$3.50</p>
+               </div>
+             </div>
+             <!-- второй контейнер -->
+             <div class="container desFlex desRemove">
+               <img class="image_1" src="./svg/des_2.png"></img>
+               <div class="text">
+                 <p>Red velvet</p>
+                 <p>
+                 Layer cake with cream cheese frosting
+                 </p>
+                 <p>$4.00</p>
+               </div>
+             </div>
+             <!-- третий контейнер -->
+             <div class="container desFlex desRemove">
+               <img class="image_1" src="./svg/des_3.png"></img>
+               <div class="text">
+                 <p>Cheesecakes</p>
+                 <p>
+                   Soft cottage cheese pancakes with sour cream and fresh berries and sprinkled with powdered sugar
+                 </p>
+                 <p>$4.50</p>
+               </div>
+             </div>
+             <!-- четвёртый контейнер -->
+             <div class="container desFlex desRemove">
+               <img class="image_1" src="./svg/des_4.png"></img>
+               <div class="text">
+                 <p>Creme brulee</p>
+                 <p>
+                   Delicate creamy dessert in a caramel basket with wild berries
+                 </p>
+                 <p>$4.00</p>
+               </div>
+             </div>
+             <!-- пятый контейнер -->
+             <div class="container des_delete_1089 desFlex">
+               <img class="image_1" src="./svg/des_5.png"></img>
+               <div class="text_five">
+                 <p>Pancakes</p>
+                 <p>Tender pancakes with strawberry jam and fresh strawberries</p>
+                 <p>$4.50</p>
+               </div>
+             </div>
+             <!-- шестой контейнер -->
+             <div class="container des_delete_1089 desFlex">
+               <img class="image_1" src="./svg/des_6.png"></img>
+               <div class="text_first_six">
+                 <p>Honey cake</p>
+                 <p>
+                   Classic honey cake with delicate custard
+                 </p>
+                 <p>$4.50</p>
+               </div>
+             </div>
+             <!-- седьмой контейнер --> 
+             <div class="container des_delete_1439 desFlex">
+               <img class="image_1" src="./svg/des_7.png"></img>
+               <div class="text">
+                 <p>Chocolate cake</p>
+                 <p>
+                   Cake with hot chocolate filling and nuts with dried apricots
+                 </p>
+                 <p>$5.50</p>
+               </div>
+             </div>
+             <!-- восьмой контейнер -->
+             <div class="container des_delete_1439 desFlex">
+               <img class="image_1" src="./svg/des_8.png"></img>
+               <div class="text">
+                 <p>Black forest</p>
+                 <p>
+                   A combination of thin sponge cake with cherry jam and light chocolate mousse
+                 </p>
+                 <p>$6.50</p>
+               </div>
+             </div>
+           </div>
         </section>
         <div class="return"> <img src="./svg/button-icon-dark.svg" alt=""></div>
       </article>
@@ -192,5 +326,6 @@
         </div>
       </div>
     </footer>
+    <script src="./app.js"></script>
   </body>
 </html>

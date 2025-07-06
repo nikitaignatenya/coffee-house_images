@@ -200,7 +200,7 @@ main .first_section .icons .all_icon :nth-child(2) {
 
 /* вторая секция */
 
-main article .second_section {
+main article .second_section .containerDrink {
   max-width: 1360px;
   display: flex;
   justify-content: center;
@@ -208,7 +208,7 @@ main article .second_section {
   gap: 40px;
 }
 
-main article .second_section .container {
+main article .second_section .containerDrink .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -218,7 +218,7 @@ main article .second_section .container {
   height: 100%;
 }
 
-main article .second_section .container .image_1 {
+main article .second_section .containerDrink .container .image_1 {
   width: 100%;
   max-height: 310px;
   background-repeat: no-repeat;
@@ -230,7 +230,7 @@ main article .second_section .container .image_1 {
 
 /* первый и шестой */
 
-main article .second_section .container .text_first_six {
+main article .second_section .containerDrink .container .text_first_six {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -239,7 +239,13 @@ main article .second_section .container .text_first_six {
   align-content: flex-start;
 }
 
-main article .second_section .container .text_first_six :nth-child(1) {
+main
+  article
+  .second_section
+  .containerDrink
+  .container
+  .text_first_six
+  :nth-child(1) {
   font-family: "Inter";
   font-weight: 600;
   font-size: 24px;
@@ -247,7 +253,14 @@ main article .second_section .container .text_first_six :nth-child(1) {
   color: #403f3d;
 }
 
-main article .second_section .container .text_first_six :nth-child(2) {
+main
+  article
+  .second_section
+  .containerDrink
+  .container
+  .text_first_six
+  :nth-child(2) {
+  height: 72px;
   font-family: "Inter_reg";
   font-weight: 400;
   font-size: 16px;
@@ -255,7 +268,13 @@ main article .second_section .container .text_first_six :nth-child(2) {
   color: #403f3d;
 }
 
-main article .second_section .container .text_first_six :nth-child(3) {
+main
+  article
+  .second_section
+  .containerDrink
+  .container
+  .text_first_six
+  :nth-child(3) {
   font-family: "Inter";
   font-weight: 600;
   font-size: 24px;
@@ -265,7 +284,8 @@ main article .second_section .container .text_first_six :nth-child(3) {
 
 /* второй, третий, четвёртый, седьмой, восьмой контейнеры */
 
-main article .second_section .container .text {
+main article .second_section .containerDrink .container .text {
+  gap: 12px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -273,7 +293,7 @@ main article .second_section .container .text {
   align-content: flex-start;
 }
 
-main article .second_section .container .text :nth-child(1) {
+main article .second_section .containerDrink .container .text :nth-child(1) {
   font-family: "Inter";
   font-weight: 600;
   font-size: 24px;
@@ -281,34 +301,40 @@ main article .second_section .container .text :nth-child(1) {
   color: #403f3d;
 }
 
-main article .second_section .container .text :nth-child(2) {
+main article .second_section .containerDrink .container .text :nth-child(2) {
+  height: 72px;
   font-family: "Inter_reg";
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #403f3d;
-  margin-top: 12px;
 }
 
-main article .second_section .container .text :nth-child(3) {
+main article .second_section .containerDrink .container .text :nth-child(3) {
   font-family: "Inter";
   font-weight: 600;
   font-size: 24px;
   line-height: 125%;
   color: #403f3d;
-  margin-top: 36px;
 }
 
 /* пятый контейнер  */
 
-main article .second_section .container .text_five {
+main article .second_section .containerDrink .container .text_five {
+  gap: 12px;
   display: flex;
   flex-direction: column;
   padding: 20px;
   align-self: flex-start;
 }
 
-main article .second_section .container .text_five :nth-child(1) {
+main
+  article
+  .second_section
+  .containerDrink
+  .container
+  .text_five
+  :nth-child(1) {
   font-family: "Inter";
   font-weight: 600;
   font-size: 24px;
@@ -316,22 +342,47 @@ main article .second_section .container .text_five :nth-child(1) {
   color: #403f3d;
 }
 
-main article .second_section .container .text_five :nth-child(2) {
+main
+  article
+  .second_section
+  .containerDrink
+  .container
+  .text_five
+  :nth-child(2) {
+  height: 72px;
   font-family: "Inter_reg";
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #403f3d;
-  margin-top: 12px;
 }
 
-main article .second_section .container .text_five :nth-child(3) {
+main
+  article
+  .second_section
+  .containerDrink
+  .container
+  .text_five
+  :nth-child(3) {
   font-family: "Inter";
   font-weight: 600;
   font-size: 24px;
   line-height: 125%;
   color: #403f3d;
-  margin-top: 60px;
+}
+
+main article .second_section .changeCartTea .teaRemove {
+  display: none;
+}
+main article .second_section .changeCartDes .des_delete_1439 {
+  display: none;
+}
+
+main article .second_section .changeCartDes .des_delete_1089 {
+  display: none;
+}
+main article .second_section .changeCartDes .desRemove {
+  display: none;
 }
 
 .return {
@@ -588,15 +639,21 @@ footer .footer_right .container .third_p :nth-child(2) {
 }
 
 @media (max-width: 1439px) {
-  main article .second_section .container_delete_1 {
+  main article .second_section .changeCartCofee .cofee_delete_1439 {
     display: none;
   }
+  /* main article .second_section .changeCartDes .des_delete_1439 {
+    display: none;
+  } */
 }
 
 @media (max-width: 1089px) {
-  main article .second_section .container_delete_2 {
+  main article .second_section .changeCartCofee .cofee_delete_1089 {
     display: none;
   }
+  /* main article .second_section .changeCartDes .des_delete_1089 {
+    display: none;
+  } */
 }
 
 @media (max-width: 950px) {
