@@ -371,15 +371,150 @@ main
   color: #403f3d;
 }
 
-main article .second_section .changeCartDes {
-  display: none;
-}
-main article .second_section .changeCartTea {
+.return {
   display: none;
 }
 
-.return {
+main article .second_section .modal {
+  position: fixed;
+  top: 300px;
+  left: 600px;
+  z-index: 100;
+  padding: 16px;
+  background-color: #e1d4c9;
   display: none;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 800px;
+  gap: 20px;
+  border: 2px solid #665f55;
+  border-radius: 40px;
+  .modalImage {
+    max-width: 310px;
+  }
+  .modalChoose {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    h3 {
+      font-family: Inter;
+      font-weight: 600;
+      font-style: Semi Bold;
+      font-size: 24px;
+      line-height: 125%;
+      color: #403f3d;
+    }
+    .description {
+      margin-top: 12px;
+      font-family: Inter;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 16px;
+      line-height: 150%;
+      color: #403f3d;
+    }
+    .sizeName,
+    .additivesName {
+      margin-top: 20px;
+      font-family: Inter;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 16px;
+      line-height: 150%;
+      color: #403f3d;
+    }
+    .size,
+    .additives {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      .size_type,
+      .additives_type {
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        padding: 8px 16px 8px 8px;
+        border-radius: 100px;
+        gap: 8px;
+        border: 1px solid #c1b6ad;
+        p:nth-child(1) {
+          font-family: Inter;
+          font-weight: 600;
+          font-style: Semi Bold;
+          font-size: 16px;
+          line-height: 150%;
+          text-align: center;
+          vertical-align: middle;
+          padding: 3px 9px;
+          background-color: #c1b6ad;
+
+          border-radius: 100px;
+        }
+        p:nth-child(2) {
+          font-family: Inter;
+          font-weight: 600;
+          font-style: Semi Bold;
+          font-size: 16px;
+          line-height: 150%;
+          color: #403f3d;
+        }
+      }
+    }
+    .totalPrice {
+      margin-top: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h2 {
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 24px;
+        line-height: 125%;
+        color: #403f3d;
+      }
+    }
+    .info-empty {
+      margin-top: 20px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 12px 0px;
+      border-top: 1px solid #c1b6ad;
+      gap: 8px;
+      img {
+        width: 16px;
+      }
+      p {
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 10px;
+        line-height: 140%;
+        vertical-align: middle;
+        color: #403f3d;
+      }
+    }
+    button {
+      margin-top: 20px;
+      border: 1px solid #665f55;
+      border-radius: 100xp;
+      padding: 10px 196.5px;
+      border-radius: 100px;
+      background-color: unset;
+
+      font-family: Inter;
+      font-weight: 600;
+      font-style: Semi Bold;
+      font-size: 16px;
+      line-height: 150%;
+      text-align: center;
+      color: #403f3d;
+    }
+  }
 }
 
 /* footer */
@@ -632,19 +767,13 @@ footer .footer_right .container .third_p :nth-child(2) {
 }
 
 @media (max-width: 1439px) {
-  main article .second_section .changeCartCofee .cofee_delete_1439 {
-    display: none;
-  }
-  main article .second_section .changeCartDes .des_delete_1439 {
+  main article .second_section .changeCartCofee .cofee_remove_1439 {
     display: none;
   }
 }
 
 @media (max-width: 1089px) {
-  main article .second_section .changeCartCofee .cofee_delete_1089 {
-    display: none;
-  }
-  main article .second_section .changeCartDes .des_delete_1089 {
+  main article .second_section .changeCartCofee .cofee_remove_1089 {
     display: none;
   }
 }
